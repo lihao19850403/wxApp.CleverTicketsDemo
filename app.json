@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/train/train",
+    "pages/airplane/airplane",
+    "pages/bus/bus",
+    "pages/mycenter/mycenter",
+    "pages/trainList/trainList",
+    "pages/grabticket/grabticket"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#5495E6",
+    "navigationBarTitleText": "智行12306",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug": true,
+  "tabBar": {
+    "selectedColor": "#5495E6",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/train/train",
+        "text": "火车票",
+        "iconPath": "images/status_bar/train_b.png",
+        "selectedIconPath": "images/status_bar/train.png"
+      },
+      {
+        "pagePath": "pages/airplane/airplane",
+        "text": "飞机票",
+        "iconPath": "images/status_bar/airplain_b.png",
+        "selectedIconPath": "images/status_bar/airplain.png"
+      },
+      {
+        "pagePath": "pages/bus/bus",
+        "text": "汽车票",
+        "iconPath": "images/status_bar/bus_b.png",
+        "selectedIconPath": "images/status_bar/bus.png"
+      },
+      {
+        "pagePath": "pages/mycenter/mycenter",
+        "text": "个人中心",
+        "iconPath": "images/status_bar/me_b.png",
+        "selectedIconPath": "images/status_bar/me.png"
+      }
+    ]
+  }
+}

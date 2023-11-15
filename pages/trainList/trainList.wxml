@@ -1,0 +1,45 @@
+<!--pages/trainList/trainList.wxml-->
+
+<view class="date">
+  <view>前一天</view>
+  <view>{{date}}</view>
+  <view>后一天</view>
+</view>
+<view class='content' style='height:{{winHeight}}px;'>
+  <view class='bg'>
+    <view class='item'>
+      <view class='wrApper left'>
+        <view class='normal'>哈尔滨</view>
+        <view class='blue'>北京</view>
+      </view>
+      <view class='wrApper center'>
+        <view class='normal'>DD28</view>
+        <view class='line'></view>
+        <view class='small'>7小时54分</view>
+      </view>
+      <view class='wrApper right'>
+        <view class='normal'>06:57</view>
+        <view class='normal'>14:51</view>
+      </view>
+      <view class='wrApper right'>
+        <view class='blue'>￥306.5起</view>
+        <view class='buy'>可抢票</view>
+      </view>
+    </view>
+    <view class='hr'></view>
+    <view class='seat'>
+      <view class='yes'>一等座：10张<text>（抢）</text></view>
+      <view class='no'>二等座：0张<text>（抢）</text></view>
+    </view>
+  </view>
+</view>
+
+<view class="bottomNav">
+  <view id="0" class="{{currentTab == 0 ? 'selected' : 'common'}}" bindtap="switchNav">筛选</view>
+  <view style="color:#FFFFFF;">|</view>
+  <view id="1" class="{{currentTab == 1 ? 'selected' : 'common'}}" bindtap="switchNav">出发时间</view>
+  <view style="color:#FFFFFF;">|</view>
+  <view id="2" class="{{currentTab == 2 ? 'selected' : 'common'}}" bindtap="switchNav">旅行时间</view>
+  <view style="color:#FFFFFF;">|</view>
+  <view id="3" class="{{currentTab == 3 ? 'selected' : 'common'}}" bindtap="switchNav">显示价格</view>
+</view>
